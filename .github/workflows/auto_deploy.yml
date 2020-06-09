@@ -31,4 +31,4 @@ jobs:
       run: npm install --global surge
     - name: deploying using surge
       run: surge ./ ubiquitous-spring.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
-                   
+      
